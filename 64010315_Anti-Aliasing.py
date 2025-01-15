@@ -4,7 +4,7 @@ from scipy.fft import fft2, ifft2, fftshift
 from skimage import io, transform
 
 # อ่านภาพ
-image_path = 'd:/Leetcode/barbara.jpg'
+image_path = 'd:/barbara.jpg'
 a = io.imread(image_path, as_gray=True)
 
 # ลดขนาดภาพลง 0.25 เท่า (Downsampling) และขยายกลับเป็นขนาดเดิม (Upsampling)
